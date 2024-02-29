@@ -17,7 +17,7 @@ const Footer = () => {
                     <li className="social__item"><a href="#!"><img src={twitter} alt="Link" /></a></li>
                 </ul>
                 <div className="copyright">
-                    <p>© 2024 Kirill.Radchenko</p>
+                    <p>© 2024 Kirill Radchenko</p>
                 </div>
             </div>
         </div>
