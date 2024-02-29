@@ -13,7 +13,10 @@ const Projects = () => {
           <h2 className="title-1">Projects</h2>
           <ul className="projects">
             <li className="project">
-              <a href="./project-page.html">
+              <a
+                href="https://radkirill00.github.io/calc.github.io/"
+                target="_blank"
+              >
                 <img src={pr1} alt="Project img" className="project__img" />
                 <h3 className="project__title">Calculator</h3>
               </a>
@@ -25,19 +28,21 @@ const Projects = () => {
               </a>
             </li>
             <li className="project">
-              <a href="./project-page.html">
+              <a
+                href="https://radkirill00.github.io/todo-list/"
+                target="_blank"
+              >
                 <img src={pr3} alt="Project img" className="project__img" />
                 <h3 className="project__title">todo-list</h3>
               </a>
             </li>
 
             <li className="project">
-              <a href="#!">
+              <a href="https://mdshishov.github.io/gpt3/" target="_blank">
                 <img src={pr4} alt="Project img" className="project__img" />
                 <h3 className="project__title">GPT-3</h3>
               </a>
             </li>
-          
           </ul>
         </div>
       </main>
