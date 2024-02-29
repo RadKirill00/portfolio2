@@ -1,8 +1,8 @@
 import React from "react";
-import pr1 from "./../img/projects/01-big.jpg";
-import pr2 from "./../img/projects/02-big.jpg";
-import pr3 from "./../img/projects/03-big.jpg";
-import pr4 from "./../img/projects/04-big.jpg";
+import pr1 from "./../img/projects/Снимок экрана 2024-02-29 152534.png";
+import pr2 from "./../img/projects/Снимок экрана 2024-02-29 152918.png";
+import pr3 from "./../img/projects/Снимок экрана 2024-02-29 153025.png";
+import pr4 from "./../img/projects/Снимок экрана 2024-02-29 153139.png";
 import pr5 from "./../img/projects/05-big.jpg";
 import pr6 from "./../img/projects/06-big.jpg";
 const Projects = () => {
@@ -15,40 +15,29 @@ const Projects = () => {
             <li className="project">
               <a href="./project-page.html">
                 <img src={pr1} alt="Project img" className="project__img" />
-                <h3 className="project__title">Gaming streaming portal</h3>
+                <h3 className="project__title">Calculator</h3>
               </a>
             </li>
             <li className="project">
               <a href="./project-page.html">
                 <img src={pr2} alt="Project img" className="project__img" />
-                <h3 className="project__title">Video service</h3>
+                <h3 className="project__title">This portfolio)</h3>
               </a>
             </li>
             <li className="project">
               <a href="./project-page.html">
                 <img src={pr3} alt="Project img" className="project__img" />
-                <h3 className="project__title">Video portal</h3>
+                <h3 className="project__title">todo-list</h3>
               </a>
             </li>
 
             <li className="project">
               <a href="#!">
                 <img src={pr4} alt="Project img" className="project__img" />
-                <h3 className="project__title">Dating app</h3>
+                <h3 className="project__title">GPT-3</h3>
               </a>
             </li>
-            <li className="project">
-              <a href="#!">
-                <img src={pr5} alt="Project img" className="project__img" />
-                <h3 className="project__title">Landing</h3>
-              </a>
-            </li>
-            <li className="project">
-              <a href="#!">
-                <img src={pr6} alt="Project img" className="project__img" />
-                <h3 className="project__title">Gaming community</h3>
-              </a>
-            </li>
+          
           </ul>
         </div>
       </main>

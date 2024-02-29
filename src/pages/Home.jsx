@@ -12,7 +12,7 @@ const Home = () => {
             <li className="content-list__item">
               <h2 className="title-2">Frontend</h2>
               <p>
-                JavaScript, TypeScript, ReactJS, HTML, CSS, NPM,
+                JavaScript,  ReactJS, HTML, CSS, NPM,
                 BootStrap, StyledComponents, GIT,  React Hooks, React Router.
               </p>
             </li>
