@@ -1,10 +1,28 @@
-let elem = document.getElementById("elem");
+let btn1 = document.querySelector("#start");
+let btn2 = document.querySelector("#end");
+let p = document.querySelector("p");
+let time = 100;
+let timer;
 
-function func(name, surname) {
-  console.log(this.value + ", " + name + " " + surname);
-}
+btn1.addEventListener("click", function func() {
+  timer = setInterval(function () {
+    p.textContent = --time;
+    if (time === 0) {
+      clearInterval(timer);
+    }
+  }, 1000);
 
-let newfunc = func.bind(elem);
+  this.removeEventListener("click", func);
+});
 
-newfunc("Jon", "Smit"); 
-newfunc("Eric", "Luis"); 
+btn2.addEventListener('click', function func2() {
+  clearInterval(timer);
+  btn1.addEventListener('click', function() {
+    timer = setInterval(function () {
+      p.textContent = --time;
+      if (time === 0) {
+        clearInterval(timer);
+      }
+    }, 1000);
+  })
+})
