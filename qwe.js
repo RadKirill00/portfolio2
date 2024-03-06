@@ -6,5 +6,5 @@ function func(name, surname) {
 
 let newfunc = func.bind(elem);
 
-newfunc("John", "Smit"); 
+newfunc("Jon", "Smit"); 
 newfunc("Eric", "Luis"); 
